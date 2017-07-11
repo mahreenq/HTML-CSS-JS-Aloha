@@ -1,0 +1,84 @@
+
+@media only screen and (max-width:600px) {
+
+
+  .shoppingcartlogo-mobile {
+   width: 150%;
+ }
+ .alohalogo-mobile {
+   width:30%;
+ }
+  .hidden-mobile-text {
+    display:none;
+}
+
+  .flex-direction-column-mobile{
+    flex-direction: column;
+  }
+
+  .display-flex-mobile {
+    display:flex;
+  }
+
+ .justify-content-center-mobile {
+   justify-content: center;
+ }
+
+ .justify-content-space-around-mobile {
+   justify-content: space-around;
+ }
+
+ .justify-content-flex-end-mobile {
+   justify-content: flex-end;
+ }
+
+ .text-align-center-mobile {
+   text-align: center;
+ }
+
+ .padding-bottom-50px-mobile {
+   padding-bottom: 50px;
+}
+
+  .floatright-mobile {
+    width: 40px;
+    padding-top: 15px;
+  }
+
+  .banner h1 {
+    font-size: 3rem;
+  }
+
+  .padding-right-social-media-mobile {
+    padding: 0px 0px 0px 0px;
+  }
+
+
+  .banner-background-mobile {
+  	height:55vh;
+    background: linear-gradient(
+      rgba(0,0,0,0.3),
+      rgba(0,0,0,0.3)),
+    url("assets/images/banner-girl.png"), url("assets/images/flower-bkgd.jpg");
+    background-repeat:repeat, no-repeat;
+    background-position: center, center 65px ;
+    background-size: 55rem, 14rem;
+  }
+
+  .email-background-mobile {
+    background: linear-gradient(
+      rgba(0,0,0,0.3),
+      rgba(0,0,0,0.3)),
+    url("assets/images/wave-bkgd.jpg") bottom no-repeat;
+  	background-size: 80rem;
+    background-position: bottom;
+  }
+
+    .companydescription p{
+      display:inline;
+    }
+    .email p{
+      display: inline;
+
+    }
+ }
