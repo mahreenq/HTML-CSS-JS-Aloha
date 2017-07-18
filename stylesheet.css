@@ -21,7 +21,7 @@ header .alohalogo {
 header .shoppingcartlogo {
   order:2;
   background: url("assets/images/cart-icon.svg") no-repeat;
-  background-position: right;
+  background-position: center  right ;
   background-size: 35%;
   width: 35%;
 }
@@ -37,11 +37,14 @@ header .cta{
 
 #cartTotalItems{
   background-color: #e0564b;
-  border-radius: 50px;
-  width: 1.2rem;;
-  height: 20px;;
   color: white;
-  text-align: center;
+  border: none;
+  border-radius: 50%;
+  font-size: 21px;
+  width: 1.5rem;
+  height: 1.5rem;
+  position: absolute;
+
 }
 
 .banner {
