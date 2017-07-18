@@ -7,16 +7,41 @@ section{
   line-height: 35px;
 }
 
- .shoppingcartlogo{
-  width: 50%;
-}
-.alohalogo {
-  width:15%;
+.border-top{
+  border-top: solid 2px #e5e5e5;
 }
 
-.floatright{
-	width: 400px;
-  margin-right: 40px;
+header{
+  flex-flow: row wrap;
+}
+header .alohalogo {
+  order:1;
+  width: 50%;
+}
+header .shoppingcartlogo {
+  order:2;
+  background: url("assets/images/cart-icon.svg") no-repeat;
+  background-position: right;
+  background-size: 35%;
+  width: 35%;
+}
+
+header .cta{
+  order:3;
+  width: 100%;
+}
+
+.alohalogo img {
+  width:70%;
+}
+
+#cartTotalItems{
+  background-color: #e0564b;
+  border-radius: 50px;
+  width: 1.2rem;;
+  height: 20px;;
+  color: white;
+  text-align: center;
 }
 
 .banner {
@@ -26,21 +51,79 @@ section{
   url("assets/images/banner-girl.png"), url("assets/images/flower-bkgd.jpg");
   background-repeat:repeat, no-repeat;
   height:60vh;
-  background-position: center, center 70px;
-  background-size: 70rem, 20rem;
+  background-position: center, center 8rem;
+  background-size: 60rem, 13rem;
 }
 
 .banner h4{
-  line-height: 8rem;
+  line-height: 4rem;
 }
 .banner h1{
-  font-size: 5rem;
+  font-size: 3rem;
+  line-height: 3rem;
 }
 
-.companydescription{
-  border-bottom: solid 3px #e5e5e5;
+.mens {
+  background: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)),
+  url("assets/images/mens-category.jpg") no-repeat;
+  margin:0 0 0.25rem 0;
+  background-position: center;
+  background-size: cover;
 }
-
+.trends{
+  background: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)),
+  url("assets/images/trends-category.jpg") no-repeat;
+  margin: 0.25rem 0.25rem 0.25rem 0;
+  width:50%;
+  background-position: center;
+  background-size: cover;
+}
+.glasses{
+  background: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)),
+  url("assets/images/glasses-category.jpg")no-repeat;
+  margin: 0.25rem 0 0.25rem 0.25rem;
+  width:50%;
+  background-position: center;
+  background-size:  cover;
+}
+.sales{
+  background: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)),
+  url("assets/images/sale-category.jpg")no-repeat;
+  margin: 0.25rem 0.25rem 0.25rem 0;
+  width:50%;
+background-position: center;
+  background-size: cover;
+}
+.bags{
+  background: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)),
+  url("assets/images/bags-category.jpg")no-repeat;
+  margin: 0.25rem 0 0.25rem 0.25rem;
+  width:50%;
+  background-position: center;
+  background-size: cover;
+}
+.womens{
+  background: linear-gradient(
+    rgba(0,0,0,0.3),
+    rgba(0,0,0,0.3)),
+  url("assets/images/womens-category.jpg")no-repeat;
+  margin: 0.25rem 0 0 0;
+  background-position: top;
+  background-size: cover;
+}
+.display-inline{
+  display: inline;
+}
 .email {
   background: linear-gradient(
     rgba(0,0,0,0.3),
@@ -49,16 +132,14 @@ section{
 	background-size: cover;
   margin-bottom: 5px;
 }
-
 input[type="text"]{
-width: 320px;
+width: 220px;
 border: none;
 border-radius: 200px;
 color:#a9a9a9;
 font-size: 18px;
 padding: 10px;
 }
-
 .email-button {
   background-color: #e0564b;
   border-radius: 300px;
@@ -66,50 +147,61 @@ padding: 10px;
   font-size: 18px;
   padding:6px;
   width: 125px;
-  transition: all 0.5s ease;
+  transition: all 0s ease;
 }
-
+.addtocart-button {
+  background-color: black;
+  border-radius: 300px;
+  border: none;
+  font-size: 15px;
+  padding:4px;
+  width: 100px;
+  transition:all 0s ease;
+}
 form {
   background-color: white;
-  width: 460px;
+  width: 22rem;
   border-radius: 45px;
 }
-
 footer {
 	margin-top: 6px;
 	padding-left: 40px;
   background-color: #262626
 }
-
 .fa{
 	padding-bottom: 15px;
   color:white;
 }
-
 .fa:hover{
   color:#969696;
 }
-
 .SocialMediaIcon{
 	width: 40px;
+  height: auto;
 }
-
 div ul li {
   color: black;
+}
+cta li {
+  color:#e2574c;
   transition: all 0.3s ease;
 }
-div ul li:hover {
-  color:#e2574c;
+.cta li:hover{
+  color: #b64036;
 }
-
 .email-button:hover {
   background-color:#12747a;
 }
-
 .SocialMediaName {
+  display:none;
   transition: all 0.3s ease;
 }
-
 .SocialMediaName:hover {
   color:#969696;
+}
+.addtocart-button:hover{
+  background-color: #e0564b;
+}
+.itemimage {
+  margin: 0 auto;
 }
