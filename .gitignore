@@ -1,11 +1,7 @@
 
+
+# misc
 .DS_Store
-aloha-tablet-600px.png
-*.otf
-*.ttf
-aloha-mobile.png
-aloha-desktop-1240px.png
-aloha-desktop-stretch.png
-jquery.bxslider.js
-jquery.bxslider.min.css
-jqueryaloha.js
+
+# dependencies
+/node_modules
