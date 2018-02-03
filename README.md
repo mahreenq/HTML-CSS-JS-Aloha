@@ -7,21 +7,11 @@
 <p> Additional function was added to count items total items in shopping cart </p>
 <br>
 
-<div class="flex">
-
-<div class="width-50">
-<h1>MOBILE</h1>
-<img src="./build/assets/aloha-mobile1.png">
-</div>
-
-<div class="width-50">
-<h1>TABLET</h1>
-<img src="./build/assets/aloha-tablet1.png">
-</div>
-
-</div>
-
 <h1>DESKTOP</h1>
 <img src="./build/assets/aloha-desktop1.png">
 
+<h1>TABLET</h1>
+<img src="./build/assets/aloha-tablet1.png">
 
+<h1>MOBILE</h1>
+<img src="./build/assets/aloha-mobile1.png">
