@@ -7,7 +7,7 @@
 <p> Function added to count items in cart </p>
 <br>
 
-<div class="flex">
+<div style="display:flex;">
 
 <div style="width:50%;">
 <h1>MOBILE</h1>
