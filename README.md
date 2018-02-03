@@ -9,12 +9,12 @@
 
 <div style="display:flex;">
 
-<div style="width:50%;">
+<div class="width-50">
 <h1>MOBILE</h1>
-<img style="width:50%;"src="./build/assets/aloha-mobile1.png">
+<img src="./build/assets/aloha-mobile1.png">
 </div>
 
-<div style="width:50%;">
+<div class="width-50">
 <h1>TABLET</h1>
 <img src="./build/assets/aloha-tablet1.png">
 </div>
