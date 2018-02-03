@@ -8,11 +8,16 @@
 <br>
 
 <div class="flex">
+
+<div style="width:50%;">
 <h1>MOBILE</h1>
 <img src="./build/assets/aloha-mobile1.png">
+</div>
 
+<div style="width:50%;">
 <h1>TABLET</h1>
 <img src="./build/assets/aloha-tablet1.png">
+</div>
 
 </div>
 
