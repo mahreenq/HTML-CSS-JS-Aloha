@@ -134,24 +134,17 @@ header .shoppingcartlogodesktop {
     background-position: center right;
     padding: 3rem;
 }
-
 header .ctadesktop{
   order:2;
   border: none;
   width: 50%;
 }
-
-// .alohalogodesktop img {
-//   width: 80%;
-// }
-
 .bannerdesktop {
 background: linear-gradient(
     rgba(0,0,0,0.3),
     rgba(0,0,0,0.3)),
   url("../assets/banner-girl.png"), url("../assets/flower-bkgd.jpg");
   background-repeat:no-repeat, no-repeat;
-  height:65vh;
   background-position: center, center 8rem;
   background-size: 100%, 15rem;
 padding-top: 2rem;

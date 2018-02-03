@@ -19,17 +19,29 @@ if ($(window).width() < 600) {
     maxSlides:1,
     minSlides:1,
     slideWidth: 400,
+    //speed:90000,
+    auto: false,
+
   });
 } else if ($(window).width() < 1000){
   $('.bxSlider').bxSlider({
     maxSlides:2,
     minSlides:2,
     slideWidth: 400,
+    //speed:90000,
+    auto: false,
+   // auto: true,
+
   });
 } else {
   $('.bxSlider').bxSlider({
     maxSlides:4,
     minSlides:4,
     slideWidth: 400,
+   // speed:90000,
+    auto: false,
+  //  auto: true,
+
+
   });
 }

@@ -2,6 +2,11 @@ h3 {
   font-size: 35px;
 }
 
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
 section{
   line-height: 35px;
 }
@@ -52,7 +57,7 @@ header .cta{
     rgba(0,0,0,0.3)),
   url("../assets/banner-girl.png"), url("../assets/flower-bkgd.jpg");
   background-repeat:repeat, no-repeat;
-  height:60vh;
+  height:600px;
   background-position: center, center 8rem;
   background-size: 60rem, 13rem;
 }
@@ -133,6 +138,7 @@ background-position: center;
   url("../assets/wave-bkgd.jpg") bottom no-repeat;
 	background-size: cover;
   margin-bottom: 5px;
+  height: 250px;
 }
 input[type="text"]{
 width: 220px;
@@ -211,3 +217,21 @@ cta li {
 .itemimage {
   margin: 0 auto;
 }
+
+.bx-wrapper{
+  width: 100%;
+  margin: auto;
+}
+
+// header{
+//   overflow: hidden;
+//   position: fixed; 
+//   top: 0;
+//   width: 100%;
+//   background-color: white;
+//   z-index:100;
+// }
+
+// .banner{
+//   margin-top: 100px; /* Add a top margin to avoid content overlay */
+// }

@@ -51,10 +51,10 @@ gulp.task('scss', function () {
 gulp.task("serve", function () {
     browserSync.init({
         server: {
-            baseDir: "./build"
+            baseDir: "./"
         }
     });
     gulp.watch('./src/scss/*.scss', ['scss']);
-    gulp.watch(['./build/*.html', './build/css/*.css']).on('change', browserSync.reload);
+    gulp.watch(['./*.html', './build/css/*.css']).on('change', browserSync.reload);
 });
 gulp.task("default", [ "watch", "serve" ]);
