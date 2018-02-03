@@ -8,5 +8,7 @@
 <br>
 
 <img src="./build/assets/aloha-mobile1.png">
+<img src="./build/assets/aloha-tablet1.png">
+<img src="./build/assets/aloha-desktop1.png">
 
 
