@@ -11,7 +11,7 @@
 
 <div style="width:50%;">
 <h1>MOBILE</h1>
-<img src="./build/assets/aloha-mobile1.png">
+<img style="width:50%;"src="./build/assets/aloha-mobile1.png">
 </div>
 
 <div style="width:50%;">
