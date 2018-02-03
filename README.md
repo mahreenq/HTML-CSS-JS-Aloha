@@ -7,8 +7,16 @@
 <p> Function added to count items in cart </p>
 <br>
 
+<div class="flex">
+MOBILE
 <img src="./build/assets/aloha-mobile1.png">
+
+TABLET
 <img src="./build/assets/aloha-tablet1.png">
+
+</div>
+
+DESKTOP
 <img src="./build/assets/aloha-desktop1.png">
 
 
