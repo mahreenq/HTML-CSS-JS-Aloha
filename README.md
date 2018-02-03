@@ -8,15 +8,15 @@
 <br>
 
 <div class="flex">
-MOBILE
+<h1>MOBILE</h1>
 <img src="./build/assets/aloha-mobile1.png">
 
-TABLET
+<h1>TABLET</h1>
 <img src="./build/assets/aloha-tablet1.png">
 
 </div>
 
-DESKTOP
+<h1>DESKTOP</h1>
 <img src="./build/assets/aloha-desktop1.png">
 
 
